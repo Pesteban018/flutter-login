@@ -39,22 +39,20 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions web = FirebaseOptions(
-    apiKey: 'AIzaSyCqFjCV_9CZmYeIvcK9FVy4drmKUlSaIWY',
-    appId: '1:963656261848:web:7219f7fca5fc70afb237ad',
-    messagingSenderId: '963656261848',
-    projectId: 'flutterfire-ui-codelab',
-    authDomain: 'flutterfire-ui-codelab.firebaseapp.com',
-    storageBucket: 'flutterfire-ui-codelab.firebasestorage.app',
-    measurementId: 'G-DGF0CP099H',
-  );
+      apiKey: "AIzaSyCHKDBrhztM4mgQcDSUfePr7IUMs1GM7Hg",
+      authDomain: "flutterfire-ui-codelab-f5805.firebaseapp.com",
+      projectId: "flutterfire-ui-codelab-f5805",
+      storageBucket: "flutterfire-ui-codelab-f5805.firebasestorage.app",
+      messagingSenderId: "754474234926",
+      appId: "1:754474234926:web:732cce3c9826e1d1c3dbbf");
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyDconZaCQpkxIJ5KQBF-3tEU0rxYsLkIe8',
-    appId: '1:963656261848:android:c939ccc86ab2dcdbb237ad',
-    messagingSenderId: '963656261848',
-    projectId: 'flutterfire-ui-codelab',
-    storageBucket: 'flutterfire-ui-codelab.firebasestorage.app',
-  );
+      apiKey: "AIzaSyCHKDBrhztM4mgQcDSUfePr7IUMs1GM7Hg",
+      authDomain: "flutterfire-ui-codelab-f5805.firebaseapp.com",
+      projectId: "flutterfire-ui-codelab-f5805",
+      storageBucket: "flutterfire-ui-codelab-f5805.firebasestorage.app",
+      messagingSenderId: "754474234926",
+      appId: "1:754474234926:web:732cce3c9826e1d1c3dbbf");
 
   static const FirebaseOptions ios = FirebaseOptions(
     apiKey: 'AIzaSyBqLWsqFjYAdGyihKTahMRDQMo0N6NVjAs',
